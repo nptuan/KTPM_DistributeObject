@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DistributeObject.Program" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeObject.ServerObject">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAIAAAAIAIAAAACAAAICAE=</HashCode>
+      <FileName>ServerObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeObject.ServerObjectManager">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAABIAAACFAAACAgAAAAAgAAAAAAAAAIAAE=</HashCode>
+      <FileName>ServerObjectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeObject.ClientObject">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAEAAIAIAAAAAAAAAABA=</HashCode>
+      <FileName>ClientObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeObject.SPTBacNhat">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAIAAAAIAAgAQAAAAAAAAE=</HashCode>
+      <FileName>SPTBacNhat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeObject.SPTBacHai">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="DistributeObject.ServerObject" FixedFromPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.688" />
+        <Point X="4" Y="1.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAIAAAAIACgAQAAgAAAAAE=</HashCode>
+      <FileName>SPTBacHai.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeObject.CPTBacNhat">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAIAAgAQAAAAAAAAA=</HashCode>
+      <FileName>CPTBacNhat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeObject.CPTBacHai">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAIACgAQAAAAAAAAA=</HashCode>
+      <FileName>CPTBacHai.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeObject.ClientObjectManager">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAFAAAAAAAAAAAAAAAAAAAAAIAgE=</HashCode>
+      <FileName>ClientObjectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
